@@ -39,6 +39,5 @@ void loop() {
     detenerSecuencia = false;
   }
 
-  EstadoLED = !EstadoLE
-D;
+  EstadoLED = !EstadoLED;
 }
