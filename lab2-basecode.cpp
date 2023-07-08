@@ -2,10 +2,13 @@
 #include <WiFi.h>
 #include <ThingSpeak.h>
 
+////////////////////////////// /* Modify the following lines with your network and ThingSpeak credentials */ //////////////////////////////
 const char* ssid = "Your WiFi SSID";
 const char* password = "Your WiFi Password";
 unsigned long channelID = 12345;
 const char* apiKey = "Your API Key";
+////////////////////////////// /* Modify the lines above with your network and ThingSpeak credentials */ //////////////////////////////
+
 WiFiClient client;
 
 void setup() {
